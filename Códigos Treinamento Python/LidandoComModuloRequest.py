@@ -3,7 +3,7 @@ import json
 
 payload = {'name': 'Gustavo Nunes', 'job': 'developer'}
 
-response = requests.post('https://www.reqres.in/api/users',data = json.dumps(payload))
+response = requests.post('https://reqres.in/api/users',data = json.dumps(payload))
 
 print(response.request.body)
 
